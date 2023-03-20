@@ -1,6 +1,19 @@
 <html>
 <head>
 <title>:)</title>
+<script defer>
+  
+function blinkText() {
+    if ((document.body.style.color === "DarkCyan") || (document.body.style.color === "")) {
+        document.body.style.color = "black";
+    } else if (document.body.style.color === "black") {
+        document.body.style.color = "DarkCyan";
+    }
+}
+
+window.setInterval(main, 500);
+</script>
+
 <meta charset="UTF-8">
 <link rel="stylesheet" href="styles.css">
 <link href="https://fonts.googleapis.com/css?family=Heebo&display=swap" rel="stylesheet">
